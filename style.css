@@ -1,0 +1,107 @@
+/*
+Theme Name: Mi Temita
+Theme URI: http://wordpress.org/themes/MiTemita
+Author: JEstevezRial
+Author URI: http://wordpress.org/DormirNoDaElo
+Description: L2Create Themes
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: MiTemita
+
+This theme, like WordPress, is licensed under the GPL.
+*/
+
+@media screen and (max-device-width:1980px){
+    
+#contenedorheader {
+    width: 2100px;
+    height: 256px;
+    background-color: #8A8A8A;
+}
+
+#contenedorindex {
+    margin-top: 20px;
+    width: 2100px;
+    height: 400px;
+}
+
+#menu {
+    background-color: #8A8A8A;
+    float: left;
+    width: 256px;
+    height: 400px;
+}
+
+#imagen {
+    float: left;
+    margin-right: 20px;
+}
+
+#post {
+    background-color: #8A8A8A;
+    float: left;
+    margin-right: 20px;
+    height: auto;
+}
+
+#titulo {
+    font-size: 70px;
+    position: absolute;
+    top: 0px;
+    left: 400px;
+    font-family: 'Nova Script', cursive;
+}
+
+#logo {
+    width:  260px;
+    height: 260px;
+    position: absolute;
+}
+
+#tamanosidebar {
+    margin-top: 20px;
+    width:  280px;
+    height: 390px;
+    font-family: 'Nova Script', cursive;
+    float: right;
+}
+
+#sidebar {
+    background-color: #8A8A8A;
+}
+
+#footer {
+    background-color: #8A8A8A;
+    width: 2100px;
+    height: 160px;
+    margin-top: 500px;
+    margin-left: 20px;
+}
+
+#fondofooter ul{
+    width: 490px;
+    height: 160px;
+    list-style-type: none;
+    float: left;
+}
+
+#fondofooter li{
+    display: inline;
+}
+
+#textofooter {
+    left: 800px;
+    top: 60px;
+    height: 40px;
+    font-size: 40px;
+    font-family: 'Nova Script', cursive;
+    float: left;
+}
+
+#404 {
+    width: auto;
+    height: auto;
+}
+}
